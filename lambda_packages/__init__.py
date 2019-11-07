@@ -173,5 +173,11 @@ lambda_packages = {
             'version': '1.0.9',
             'path': os.path.join(PACKAGES_DIR, 'xmlsec', 'python3.6-xmlsec-1.0.9.tar.gz')
         }
+    },
+    'weasyprint': {
+        'python3.6': {
+            'version': '50',
+            'path': os.path.join(PACKAGES_DIR, 'weasyprint', 'weasyprint_lambda_package.tar.gz')
+        }
     }
 }
